@@ -1,0 +1,27 @@
+{
+  "name": "Sticky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piwko28/sticky.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piwko28/sticky/issues"
+  },
+  "homepage": "https://github.com/piwko28/sticky",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "jshint-stylish": "latest"
+  }
+}

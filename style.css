@@ -1,0 +1,27 @@
+body {
+	margin : 200px 50px 2000px 50px;
+}
+
+#wrapper {
+	height : 3000px;
+	background : #cccccc;
+	border : 1px solid black;
+}
+
+.element {
+	width : 100px;
+	height : 50px;
+	padding : 25px;
+	margin : 20px 0;
+	font-size : 20px;
+	text-align : center;
+	color : white;
+	background : red;
+	border : 1px solid black;
+}
+
+.half {
+	display : inline-block;
+	padding : 50px;
+	vertical-align : top;
+}
