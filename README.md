@@ -19,3 +19,4 @@ $(".element").sticky({
 Possible parameters:
  - scrollContainer - parent container of sticky element that have a vertical scrollbar; default: window
  - parentContainer - parent container of sticky element that will limit sticky element by his height; default: window
+ - updatePosition - if true, it will change top position by set transformY; default: true
