@@ -11,7 +11,7 @@
 
 		var defaults = {
 			scrollContainer : window,
-			parentContainer : window
+			parentContainer : $("body"),
 		};
 		var settings = $.extend({}, defaults, options);
 		var stickyContainer = this;
