@@ -25,3 +25,30 @@ body {
 	padding : 50px;
 	vertical-align : top;
 }
+
+header {
+	position : relative;
+	left : 0;
+	top : 0;
+	width : 100%;
+	height : 40px;
+	padding : 20px 0;
+	font-family : sans-serif;
+	font-size : 30px;
+	color : white;
+	text-align : center;
+	text-transform : uppercase;
+	line-height : 40px;
+	background : black;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+header.sticky {
+	position : fixed;
+	padding : 0;
+	font-size : 20px;
+}
